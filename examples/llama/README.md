@@ -46,14 +46,14 @@ We hope using our beloved Golang instead of *soo-powerful* but *too-low-level* l
 ## How to Run
 
 ```shell
-go run main.go --threads 8 --model /home/iiislab/project/web3_dl/reference/models/llama-7b-fp32.bin.2 --temp 0.80 --context 128 --predict 128 --prompt "Why Golang is so popular?"
+go run main.go --threads 8 --model /path/models/llama-7b-fp32.bin.2 --temp 0.80 --context 128 --predict 128 --prompt "Why Golang is so popular?"
 ```
 
 Or edit the Makefile and compile and run:
 
 ```shell
 make
-./llama --threads 8 --model /home/iiislab/project/web3_dl/reference/models/llama-7b-fp32.bin.2 --temp 0.80 --context 128 --predict 128 --prompt "Why Golang is so popular?"
+./llama --threads 8 --model /path/models/llama-7b-fp32.bin.2 --temp 0.80 --context 128 --predict 128 --prompt "Why Golang is so popular?"
 ```
 
 ## FAQ

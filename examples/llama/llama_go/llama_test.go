@@ -9,7 +9,7 @@ import (
 )
 
 func TestLLaMA(t *testing.T) {
-	modelFile := "/home/iiislab/project/web3_dl/reference/models/llama-7b-fp32.bin.2"
+	modelFile := "/path/models/llama-7b-fp32.bin.2"
 	prompt := "Why Golang is so popular?"
 	threadCount := 32
 	ctx, err := LoadModel(modelFile, true)
@@ -24,7 +24,7 @@ func TestLLaMA(t *testing.T) {
 }
 
 func TestLLaMAEvalGraph(t *testing.T) {
-	modelFile := "/home/iiislab/project/web3_dl/reference/models/llama-7b-fp32.bin.2"
+	modelFile := "/path/models/llama-7b-fp32.bin.2"
 	prompt := "Why Golang is so popular?"
 	threadCount := 32
 	ctx, err := LoadModel(modelFile, true)
