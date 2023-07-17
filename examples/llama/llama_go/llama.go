@@ -10,7 +10,6 @@ import (
 	"reflect"
 	"runtime"
 	"sort"
-	"time"
 	"unsafe"
 
 	"github.com/mattn/go-colorable"
@@ -765,7 +764,8 @@ func SampleTopPTopK(
 	// --- discrete distribution
 	//     TODO Do we need something better than hand-crafted math here?
 
-	seed := time.Now().UnixNano()
+	// seed := time.Now().UnixNano()
+	seed := int64(0x1cc)
 	source := rand.NewSource(seed)
 
 	for i := 0; i < len(probs); i++ {

@@ -16,3 +16,7 @@ The machine learning part of this project refers to the legendary [ggml.cpp](htt
 3. Build the AI inference engine for MIPS
 `cd examples/mnist_mips && ./build`
 ``
+
+## LLAMA
+
+Please refer to `examples/llama/README.md` and download the model first.
