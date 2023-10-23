@@ -19,4 +19,5 @@ The machine learning part of this project refers to the legendary [ggml.cpp](htt
 
 ## LLAMA
 
+Support LLaMA 1 and LLaMA 2 (7B and 13B).
 Please refer to `examples/llama/README.md` and download the model first.
